@@ -29,5 +29,5 @@ const Users = require('./routes/Users');
 app.use('/users', Users);
 
 app.listen(port, () => {
-    console.log('The servers is ever listening on port: ' + port);
+    console.log('The server is ever listening on port: ' + port);
 });
